@@ -1,0 +1,11 @@
+.hasWords{
+    font-family: Chalkboard;
+}
+#end{
+    font-size: 300px;
+}
+#wholeThing{
+    margin: auto;
+    text-align: center;
+    background-color: #ff42a7;
+}
