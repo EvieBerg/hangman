@@ -1,4 +1,3 @@
-
 var dutch = ["gevarendriehoek", "schoenpoetsborsteltje", "schatje", "afstandsbediening", "achtentachtig"];
 var latinNames = ["balaenopteraacutorostrata", "bisonbison", "callithrixpygmaea", "Dendrobranchiata"];
 var movies = ["mortalkombat", "deadpool", "gladiator", "mamamia", "fastandfurious"];
@@ -35,6 +34,7 @@ function reset(){
         document.getElementById(allLetters[i]).disabled = false;
     }
 }
+
 function giveWord(d) {
     reset();
     var d = document.getElementById("catagorie").value;
