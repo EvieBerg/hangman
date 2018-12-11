@@ -1,3 +1,4 @@
+
 var dutch = ["gevarendriehoek", "schoenpoetsborsteltje", "schatje", "afstandsbediening", "achtentachtig"];
 var latinNames = ["balaenopteraacutorostrata", "bisonbison", "callithrixpygmaea", "Dendrobranchiata"];
 var movies = ["mortalkombat", "deadpool", "gladiator", "mamamia", "fastandfurious"];
