@@ -30,7 +30,7 @@ function reset(){
     lives = 6;
     document.getElementById("lives").innerHTML = lives;
     document.getElementById("end").innerHTML = "";
-    document.getElementById("coop").innerHTML = "<img src=coop1.png/>";
+    document.getElementById("coop").innerHTML = "<img src=coop1.png>";
     for (var i = 0; i < allLetters.length; i++) {
         document.getElementById(allLetters[i]).disabled = false;
     }
@@ -103,5 +103,5 @@ function guessLetter(letter){
     }
 }
 function addPic(lives){
-    document.getElementById("coop").innerHTML = "<img src='" + pic[6 - lives] + "'/>";
+    document.getElementById("coop").innerHTML = "<img src='" + pic[6 - lives] + "'>";
 }
